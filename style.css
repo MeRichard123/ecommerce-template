@@ -9,6 +9,11 @@ body {
     line-height: 1.5;
 }
 
+.logo {
+    height: 60px;
+    width: 60px;
+}
+
 .navbar {
     display: flex;
     align-items: center;
