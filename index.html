@@ -20,14 +20,14 @@
       <!-- Above </BODY> -->
       <script async>
       (function e(t, w, d) {
-        var s = d.createElement("script");
-        s.src = "http://localhost:3005/js/loader.js";
-        s.setAttribute('async', '');
-        s.onload = async () => {
-          await lRo(d, t, w);
-        };
-        d.getElementsByTagName("body")[0].appendChild(s);
-      })("zycMC0lhvr7", window, document);
+      var s = d.createElement("script");
+      s.src = "http://localhost:3005/js/loader.js";
+      s.setAttribute('async', '');
+      s.onload = async () => {
+      await lRo(d, t, w);
+      };
+      d.getElementsByTagName("body")[0].appendChild(s);
+      })("U0xoEWXu3L8", window, document);
       </script>
     <div class="header">
      <div class="container">
@@ -57,7 +57,7 @@
             </ul>
           </nav>
           <a href="card.html"><img src="images/cart.png" width="30px" height="30px"></a>
-          <img src="" class="menu-icon" onclick="menutoggle()">
+          <img src="images/Menu Right.svg" class="menu-icon" onclick="menutoggle()">
         </div>
         <div class="row">
           <div class="col-2">
@@ -269,13 +269,16 @@
        MenuItems.style.maxHeight = "0px";
 
        function menutoggle(){
-         if(MenuItems.style.maxHeight == "0px")
+         console.log("Menu pressed");
+         if(MenuItems.style.Height == "0px")
          {
-          MenuItems.style.maxHeight = "200px";
+          MenuItems.style.Height = "200px";
+          MenuItems.style.display = "block"
          }
          else
          {
-          MenuItems.style.maxHeight = "0px";
+          MenuItems.style.Height = "0px";
+          MenuItems.style.display = "none";
          }
 
        }
